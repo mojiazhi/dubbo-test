@@ -22,8 +22,32 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.dubbo.parent</groupId>
+            <artifactId>dubbo-api</artifactId>
+            <version>1.0-20181113</version>
+        </dependency>
 
-      
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>dubbo</artifactId>
+            <version>2.6.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.30.Final</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>2.12.0</version>
+        </dependency>
+
+
     </dependencies>
 
 </project>
